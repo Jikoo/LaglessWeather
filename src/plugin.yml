@@ -1,0 +1,16 @@
+name: LaglessWeather
+
+main: com.github.Jikoo.LaglessWeather.LaglessWeather
+version: 1.0.0
+author: Adam Gunn (PlanarWarp/Jikoo)
+
+permissions:
+ laglessweather.opt:
+  default: true
+
+commands:
+ laglessweather:
+  description: Toggle LaglessWeather on or off!
+  usage: llw on/off
+  aliases: [llw]
+  permission: laglessweather.opt

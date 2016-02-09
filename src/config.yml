@@ -1,0 +1,12 @@
+# 
+# default-on: enable LaglessWeather for all players by default?
+#     If default-on = true, listed players will see storms.
+#   If false, listed players will recieve notifications and not see storms.
+# 
+# players: List of players to alter behavior for.
+#   Note: This cannot be edited manually while server is running.
+# 
+
+default-on: true
+
+players: []
